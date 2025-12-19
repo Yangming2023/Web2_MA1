@@ -1,0 +1,51 @@
+.nav-bar {
+  background-color: lightblue;
+  padding: 12px;
+  left: 42.5%;
+  top: 15px;
+  /* animation: changeColor 10s;
+  animation-iteration-count: 1; */
+  text-align: center;
+}
+
+@keyframes changeColor {
+  0% {background-color: red;}
+  20% {background-color: yellow;}
+  40% {background-color: green;}
+  60% {background-color: blue;}
+  80% {background-color: purple;}
+  100% {background-color: red;}
+}
+
+h1 {
+  text-align: center;
+}
+
+/*from https://www.w3schools.com/css/css_image_gallery.asp*/
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: auto 10px;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 232px;
+  height: 232px
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
